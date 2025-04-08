@@ -5,7 +5,7 @@ cam = cv2.VideoCapture(0)
 cam.set(3, 640)
 cam.set(4, 480)
 
-face = cv2.CascadeClassifier('D:/ALL_Python/EXAMPLE_DOAN/BT_XU_LY_ANH_SO/Facial recognition/haarcascade_frontalface_default.xml')
+face = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 #(Sửa đường dẫn)
 
 # Kiểm tra load cascade thành công không
@@ -37,7 +37,7 @@ while (True):
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
         count += 1
-        cv2.imwrite("D:/ALL_Python/EXAMPLE_DOAN/BT_XU_LY_ANH_SO/Facial recognition/datasets/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h, x:x+w])
+        cv2.imwrite("datasets/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h, x:x+w])
         #(Sửa đuờng dẫn)
     cv2.imshow('image', img)
     
