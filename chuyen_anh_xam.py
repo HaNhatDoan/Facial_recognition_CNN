@@ -21,8 +21,8 @@ def convert_images_to_gray(input_folder, output_folder):
             print(f"Đã chuyển đổi: {filename}")
 
 # Đường dẫn đến thư mục chứa ảnh đầu vào và thư mục lưu ảnh xám
-input_folder = 'D:/Dowload/Picture/Tai/Tai'
-output_folder = 'D:/GIT/Facial_recognition_CNN/datasets/Tai'
+input_folder = 'D:/Dowload/Picture/trinh'
+output_folder = 'D:/GIT/Facial_recognition_CNN/datasets/Trinh'
 
 # Gọi hàm chuyển đổi ảnh
 convert_images_to_gray(input_folder, output_folder)

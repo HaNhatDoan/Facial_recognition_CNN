@@ -2,9 +2,9 @@ import cv2
 import os
 
 # Thư mục chứa ảnh gốc
-INPUT_DIR = "./datasets/Doan"
+INPUT_DIR = "./datasets/Trinh"
 # Thư mục chứa ảnh khuôn mặt sau khi cắt
-OUTPUT_DIR = "./cropped_datasets/Doan"
+OUTPUT_DIR = "./cropped_datasets/Trinh"
 
 # Tạo thư mục output nếu chưa tồn tại
 os.makedirs(OUTPUT_DIR, exist_ok=True)
