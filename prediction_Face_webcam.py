@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import os
 
 # Đường dẫn model
-MODEL_PATH = "model/face_recognition_model_aug.h5"
+MODEL_PATH = "model/face_recognition_model_co_Phan.h5"
 
 # Hàm lấy nhãn từ folder
 def get_label_names(dataset_path="./cropped_datasets"):

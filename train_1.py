@@ -116,5 +116,5 @@ model.fit(
     class_weight=class_weight_dict
 )
 
-model.save("model/face_recognition_model_aug.h5")
+model.save("model/face_recognition_model_co_Phan.h5")
 print("Huấn luyện với dữ liệu tăng cường xong và model đã lưu!")

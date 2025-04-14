@@ -5,8 +5,8 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import os
 
 # Đường dẫn model và ảnh
-MODEL_PATH = "model/face_recognition_model_aug.h5"
-IMAGE_PATH = "D:/Dowload/Picture/Datatrain/Tuyen/20250414_065109.jpg"
+MODEL_PATH = "model/face_recognition_model_co_Phan.h5"
+IMAGE_PATH = "D:/GIT/Facial_recognition_CNN/anh_test/Screenshot 2025-04-14 224827.png"
 
 # Tải mô hình
 model = load_model(MODEL_PATH)
