@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import os
 
 # Đường dẫn đến mô hình và thư mục dataset gốc
-MODEL_PATH = "model/face_recognition_model_co_Phan.h5"
+MODEL_PATH = "model/face_recognition_model_aug_200_epochs.h5"
 DATASET_PATH = "./cropped_datasets"
 
 # Load mô hình

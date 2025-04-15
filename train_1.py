@@ -111,10 +111,10 @@ model.fit(
     aug.flow(X_train, y_train, batch_size=5),
     validation_data=(X_test, y_test),
     steps_per_epoch=steps,
-    epochs=50,
+    epochs=200,
     callbacks=[lr_callback],
     class_weight=class_weight_dict
 )
 
-model.save("model/face_recognition_model_co_Phan.h5")
+model.save("model/face_recognition_model_aug_200_epochs.h5")
 print("Huấn luyện với dữ liệu tăng cường xong và model đã lưu!")
