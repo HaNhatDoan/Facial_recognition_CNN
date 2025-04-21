@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import os
 
 # Đường dẫn model và ảnh
-MODEL_PATH = "model/face_recognition_model_aug_200_epochs.h5"
+MODEL_PATH = "model/face_recognition_model_aug_5.h5"
 IMAGE_PATH = "D:/GIT/Facial_recognition_CNN/anh_test/Screenshot 2025-04-14 215912.png"
 
 # Tải mô hình
