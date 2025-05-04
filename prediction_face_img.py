@@ -14,7 +14,7 @@ model = load_model(MODEL_PATH)
 # Tự động lấy nhãn từ tên folder trong dataset
 def get_label_names(dataset_path="./cropped_datasets"):
     label_names = sorted([folder for folder in os.listdir(dataset_path)
-                          if os.path.isdir(os.path.join(dataset_path, folder))])
+    if os.path.isdir(os.path.join(dataset_path, folder))])
     return label_names
 
 label_names = get_label_names("./cropped_datasets")
